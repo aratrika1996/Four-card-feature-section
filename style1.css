@@ -1,0 +1,105 @@
+body {
+    background-image: url("./images/memphis.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    background-color: white;
+    height: 550px;
+    width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0px 5px 17px -1px hsl(229, 6%, 66%);
+}
+
+.main1 {
+    height: 150px;
+    text-align: center;
+}
+
+.main2 {
+    height: 400px;
+    position: relative;
+}
+
+.supervisor,
+.teambuilder,
+.karma,
+.calculator {
+    height: 150px;
+    width: 210px;
+    border-radius: 4px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 5px 20px -1px hsla(229, 6%, 66%, 0.5);
+}
+
+.supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    top: 115px;
+    left: 160px;
+}
+
+.teambuilder {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    top: 25px;
+    left: 395px;
+}
+
+.karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    top: 195px;
+    left: 395px;
+}
+
+.calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    top: 115px;
+    right: 160px;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px 20px 0;
+}
+
+.content {
+    font-size: 8px;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px 20px 0;
+    color: hsl(240, 1%, 52%);
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+#id1 {
+    font-size: 20px;
+    color: hsl(0, 1%, 29%);
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 35px;
+    margin: 0px;
+}
+
+#id2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+#id3 {
+    font-size: 9px;
+    color: hsl(240, 1%, 52%);
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+}
