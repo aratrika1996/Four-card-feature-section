@@ -1,0 +1,148 @@
+    @media only screen and (min-width: 601px) {
+        .container {
+            background-color: rgba(233, 233, 233, 0.349);
+            height: 570px;
+            width: 1000px;
+            margin: -8px auto 20px;
+        }
+        .main1 {
+            height: 150px;
+            text-align: center;
+        }
+        .main2 {
+            height: 400px;
+            position: relative;
+        }
+        .supervisor,
+        .teambuilder,
+        .karma,
+        .calculator {
+            height: 150px;
+            width: 210px;
+            border-radius: 4px;
+            position: absolute;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0px 5px 20px -1px hsla(229, 6%, 66%, 0.5);
+            transition: transform .2s;
+            background-color: white;
+        }
+        .supervisor:hover {
+            transform: scale(1.1);
+        }
+        .teambuilder:hover {
+            transform: scale(1.1);
+        }
+        .karma:hover {
+            transform: scale(1.1);
+        }
+        .calculator:hover {
+            transform: scale(1.1);
+        }
+        .title {
+            font-size: 12px;
+            font-weight: 600;
+            margin: 0;
+            padding: 20px 20px 0;
+        }
+        .content {
+            font-size: 8px;
+            font-weight: 400;
+            margin: 0;
+            padding: 5px 20px 0;
+            color: hsl(240, 1%, 52%);
+        }
+        img {
+            height: 35px;
+            width: 35px;
+            float: right;
+            padding: 25px 20px 0 0;
+        }
+        .supervisor {
+            border-top: 3px solid hsl(180, 62%, 55%);
+            top: 115px;
+            left: 160px;
+        }
+        .teambuilder {
+            border-top: 3px solid hsl(0, 78%, 62%);
+            top: 25px;
+            left: 395px;
+        }
+        .karma {
+            border-top: 3px solid hsl(34, 97%, 64%);
+            top: 195px;
+            left: 395px;
+        }
+        .calculator {
+            border-top: 3px solid hsl(212, 86%, 64%);
+            top: 115px;
+            right: 160px;
+        }
+    }
+    
+    @media only screen and (max-width:600px) {
+        .container {
+            background-color: rgba(233, 233, 233, 0.349);
+            margin: auto;
+        }
+        .main1 {
+            text-align: center;
+        }
+        .supervisor,
+        .teambuilder,
+        .karma,
+        .calculator {
+            height: 150px;
+            width: 210px;
+            border-radius: 4px;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0px 5px 20px -1px hsla(229, 6%, 66%, 0.5);
+            margin: auto;
+        }
+        .supervisor {
+            border-top: 3px solid hsl(180, 62%, 55%);
+            margin-top: 20px;
+        }
+        .teambuilder {
+            border-top: 3px solid hsl(0, 78%, 62%);
+            margin-top: 15px;
+        }
+        .karma {
+            border-top: 3px solid hsl(34, 97%, 64%);
+            margin-top: 15px;
+        }
+        .calculator {
+            border-top: 3px solid hsl(212, 86%, 64%);
+            margin-top: 15px;
+        }
+        .supervisor:hover {
+            transform: scale(1.1);
+        }
+        .teambuilder:hover {
+            transform: scale(1.1);
+        }
+        .karma:hover {
+            transform: scale(1.1);
+        }
+        .calculator:hover {
+            transform: scale(1.1);
+        }
+        .title {
+            font-size: 12px;
+            font-weight: 600;
+            margin: 0;
+            padding: 20px 20px 0;
+        }
+        .content {
+            font-size: 8px;
+            font-weight: 400;
+            margin: 0;
+            padding: 5px 20px 0;
+            color: hsl(240, 1%, 52%);
+        }
+        img {
+            height: 35px;
+            width: 35px;
+            float: right;
+            padding: 25px 20px 0 0;
+        }
+    }
